@@ -1,0 +1,9 @@
+Produce.HTML
+GET: Would return either Produce that have been entered in the system, or return the message No Produce Entered Yet, Get Started Today!
+Status Code: 200 OK
+POST: Would return Glad to See We Have Some Food! or More Information Needed Partner (and would select from one of these categories: Name of Produce,Type of Produce, Organic or Not Organic, amount, nutrition information (if available)) 
+Status Code: 201 Created if the POST was successful, else 404 if any piece of information was not able to be successfully located within the resource
+PUT: Would return (Insert Produce Name Here) Successfully Updated or More Information Needed Partner(This would pull from the above list of items necessary to POST)
+Status Code: 200 OK if successfully updated, 400 if representation is in an unintelligible state, or 404 if the update is incomplete or missing required information
+DELETE: Would return We’re Out of Food!
+Status Code: 200 OK

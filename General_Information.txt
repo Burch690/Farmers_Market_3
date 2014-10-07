@@ -1,0 +1,9 @@
+General_Information.HTML
+GET: Would return Information about the market and history, or no information at all
+Status Code: 200 OK
+POST: Since there is no criteria for information (as virtually any type of data could be uploaded, including music, pictures, charts, etc.), all POST would return Thank You for the Update!
+Status Code: 200 OK, 404 if any part of the information could not be uploaded for any reason
+PUT: Technically unnecessary, as everything could be updated via POST, however, would post the status Thank You for the Update!
+Status code: 200 Ok, 404 if any part of the information could not be uploaded for any reason
+DELETE: Would return No Information Present Partner
+Status Code: 200 OK
